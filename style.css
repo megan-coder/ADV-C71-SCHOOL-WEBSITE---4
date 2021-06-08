@@ -1,0 +1,71 @@
+body{
+	background: rgb(37,110,12);
+background: linear-gradient(0deg, rgba(37,110,12,1) 0%, rgba(210,202,202,1) 0%, rgba(212,175,55,1) 50%, rgba(28,179,48,1) 83%);
+	text-align: center;
+}
+row::after{
+	content: "";
+	clear:both;
+	display: table;
+}
+img 1, img 2, img 3{
+	height:300px;
+	width: 300px;
+}
+.movie_head {
+	font-size: 20px;
+	padding: 6px 22px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	width: 100%;
+	display: inline-block;
+}
+
+.movie_head i {
+	float: right;
+}
+
+.movie_text span {
+	color: #ff7700;
+}
+.environment_li {
+	margin-top: 13px;
+}
+
+.environment_li h4 {
+	border-bottom: 1px solid white;
+	padding: 8px;
+}
+
+.environment_li img {
+	border-radius: 25px;
+}
+
+.environment_li p {
+	margin-top: 10px;
+}
+
+
+.alumni {
+	cursor: pointer;
+}
+
+.alumni hr {
+	margin-bottom: 10px;
+}
+
+.modal-content {
+	margin-top: 100px;
+}
+
+.img_modal {
+	display: inline-block;
+}
+
+.p_modal {
+	margin-top: 10px;
+}
+
+.modal-body {
+	text-align: center
+}
